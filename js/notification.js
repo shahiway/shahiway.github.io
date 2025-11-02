@@ -4,7 +4,7 @@ const NOTIFICATION_CONTAINER = document.getElementById(
 const NOTIFICATION_TITLE = document.getElementById("notification-title");
 const NOTIFICATION_BODY = document.getElementById("notification-body");
 
-function notify(title, body) {
+function notifyInWebPage(title, body) {
   NOTIFICATION_TITLE.innerText = title;
   NOTIFICATION_BODY.innerText = body;
   NOTIFICATION_CONTAINER.classList.remove("animate__fadeOut");

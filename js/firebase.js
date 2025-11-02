@@ -59,5 +59,8 @@ if (token) {
 
 onMessage(messaging, (payload) => {
   console.log("Message received: " + JSON.stringify(payload));
-  notify(payload["notification"]["title"], payload["notification"]["body"]);
+  notifyInWebPage(
+    payload["notification"]["title"],
+    payload["notification"]["body"],
+  );
 });
