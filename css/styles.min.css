@@ -567,6 +567,12 @@ Notification
   padding: 15px;
   color: #fff;
   font: "Open Sans", sans-serif;
+  text-align: center;
+}
+.notification-content #notification-title {
+  font-size: 24px;
+}
+.notification-content #notification-body {
   font-size: 18px;
 }
 

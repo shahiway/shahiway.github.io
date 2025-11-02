@@ -447,7 +447,15 @@ Notification
     padding: 15px;
     color: colors.$txt-light;
     font: typography.$sans-serif;
-    font-size: typography.$font-size-h4;
+    text-align: center;
+
+    #notification-title {
+        font-size: typography.$font-size-h3;
+    }
+
+    #notification-body {
+        font-size: typography.$font-size-h4;
+    }
 }
 
 /* ==========================================================================
