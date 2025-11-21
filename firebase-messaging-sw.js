@@ -35,7 +35,7 @@ messaging.onBackgroundMessage((payload) => {
   // Customize notification here
   const notificationTitle = payload["notification"]["title"];
   const notificationOptions = {
-    body: "DilHaRiya: " + payload["notification"]["body"],
+    body: payload["notification"]["body"],
     icon: "https://dilhariya.github.io/img/logo.png",
   };
 
