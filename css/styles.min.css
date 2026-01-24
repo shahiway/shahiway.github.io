@@ -396,7 +396,7 @@ Hero
   position: relative;
 }
 .hero .hero-image {
-  background: url("../img/hero-min.jpg") center center;
+  background: url("../img/hero-min.webp") center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
