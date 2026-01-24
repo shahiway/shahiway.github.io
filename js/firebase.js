@@ -34,7 +34,7 @@ function requestPermission() {
 
 function postToken(token) {
   const url =
-    "https://script.google.com/macros/s/AKfycbypxN13MNpfiWDlhoaIT7w_kja3r20eBYjZJCX9RX9dGsVKe-vFIIO9uITkiRKP1BxA/exec";
+    "https://script.google.com/macros/s/AKfycbwZOUj5iDN9pNzjFhLLtQS2KsKjCeVI_DVlJ1wzTX2HjFAyABW3ystqOgaps2exyogWMQ/exec";
 
   const data = {
     token: token,
