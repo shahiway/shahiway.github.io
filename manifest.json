@@ -52,15 +52,15 @@
   ],
   "screenshots": [
     {
-      "src": "/img/screenshots/mobile.png",
-      "type": "image/png",
-      "sizes": "818x1812",
+      "src": "/img/screenshots/mobile.webp",
+      "type": "image/webp",
+      "sizes": "824x1660",
       "form_factor": "narrow"
     },
     {
-      "src": "/img/screenshots/desktop.png",
+      "src": "/img/screenshots/desktop.webp",
       "type": "image/jpg",
-      "sizes": "2782x1886",
+      "sizes": "3406x1806",
       "form_factor": "wide"
     }
   ]
