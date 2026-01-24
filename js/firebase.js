@@ -8,13 +8,13 @@ import {
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAmr01LK5BasMbr1JWcmq_Tgfh_ZyN9kn0",
-  authDomain: "dilhariya.firebaseapp.com",
-  projectId: "dilhariya",
-  storageBucket: "dilhariya.firebasestorage.app",
-  messagingSenderId: "897258501207",
-  appId: "1:897258501207:web:85c3f61bcb1a6ce9739f12",
-  measurementId: "G-28F6V6W98E",
+  apiKey: "AIzaSyBYnARkdYt_AXurVih8EYke7J6jGVHpN0Y",
+  authDomain: "shahiway-34fa9.firebaseapp.com",
+  projectId: "shahiway-34fa9",
+  storageBucket: "shahiway-34fa9.firebasestorage.app",
+  messagingSenderId: "30636712910",
+  appId: "1:30636712910:web:5bd92963ffdc0a9477819f",
+  measurementId: "G-GKYJBYD4Y7"
 };
 
 // Initialize Firebase
@@ -34,7 +34,7 @@ function requestPermission() {
 
 function postToken(token) {
   const url =
-    "https://script.google.com/macros/s/AKfycbypxN13MNpfiWDlhoaIT7w_kja3r20eBYjZJCX9RX9dGsVKe-vFIIO9uITkiRKP1BxA/exec";
+    "https://script.google.com/macros/s/AKfycbwZOUj5iDN9pNzjFhLLtQS2KsKjCeVI_DVlJ1wzTX2HjFAyABW3ystqOgaps2exyogWMQ/exec";
 
   const data = {
     token: token,
@@ -47,7 +47,7 @@ function postToken(token) {
 
 const token = await getToken(messaging, {
   vapidKey:
-    "BBgRhk1T4L5otIVjzb-YleYWih6prGsI-Lm8U14ySe52bNXaFAOQ_iN6uGvweNg4Rlw62I-Esa53-gR9Ljn_ErI",
+    "BK9lyNMs6YsFN8Ep7cotrCdNy_SJEIM5oyXzag5652X2tH-nV7b9xUfIbUk-AlC0PCil-zVB6ol3Ottfv7vdj6M",
 });
 
 if (token) {
