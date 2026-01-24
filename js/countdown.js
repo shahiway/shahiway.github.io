@@ -1,4 +1,4 @@
-const TARGET_DATE = new Date('2025-11-25T13:00:00+05:30');
+const TARGET_DATE = new Date('2026-02-05T20:00:00+05:30');
 let countdownInterval;
 
 function countdownTimer() {
